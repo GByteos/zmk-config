@@ -1,0 +1,26 @@
+/*
+ * 
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#define DEFAULT 0
+
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+        label = "nne";
+
+        default_layer {
+            label = "Default";
+            bindings = <
+&kp UP_ARROW  &kp LEFT_ARROW
+&kp DOWN_ARROW   &kp RIGHT_ARROW
+            >;
+        };
+    };
+};
