@@ -18,8 +18,14 @@
         default_layer {
             label = "Default";
             bindings = <
-&kp UP_ARROW  &kp LEFT_ARROW
-&kp DOWN_ARROW   &kp RIGHT_ARROW
+                /* Row 0: Q W E R T  Thumb1 */
+                &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y
+
+                /* Row 1: A S D F G  Thumb2 */
+                &kp A     &kp S     &kp D     &kp F     &kp G     &kp H
+
+                /* Row 2: Z X C V B  Thumb3 */
+                &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N
             >;
         };
     };
