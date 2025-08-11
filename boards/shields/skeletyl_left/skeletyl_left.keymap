@@ -25,7 +25,7 @@
                 &kp A     &kp S     &kp D     &kp F     &kp G     &kp H
 
                 /* Row 2: Z X C V B  Thumb3 */
-                &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N
+                &kp Z     &kp X     &kp C     &kp V     &kp B     &bootloader
             >;
         };
     };
