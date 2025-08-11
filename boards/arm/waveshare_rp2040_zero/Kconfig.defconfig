@@ -11,10 +11,8 @@ config RP2_FLASH_W25Q080
 
 
 # Enable ZMK USB HID
-config ZMK_USB
-	default y
-config ZMK_USB_HID
-	default y
+CONFIG_ZMK_USB=y
+CONFIG_ZMK_USB_HID=y
 
 # RP2040 uses TinyUSB backend
 CONFIG_USB_DC_NRF=n
