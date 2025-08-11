@@ -2,5 +2,5 @@
 # and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
 # SPDX-License-Identifier: MIT
 
-config SHIELD_NNE
-    def_bool $(shields_list_contains,nee)
+config SHIELD_SKELETYL_LEFT
+    def_bool $(shields_list_contains,skeletyl_left)

@@ -2,9 +2,9 @@
 # and (c) 2022 tubbytwins (Matthew A. Schnoor) and beekeeb
 # SPDX-License-Identifier: MIT
 
-if SHIELD_NEE
+if SHIELD_SKELETYL_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "nee"
+    default "skeletyl_left"
 
 endif

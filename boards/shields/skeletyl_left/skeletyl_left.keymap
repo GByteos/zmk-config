@@ -13,7 +13,7 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-        label = "nne";
+        label = "skeletyl_left";
 
         default_layer {
             label = "Default";
