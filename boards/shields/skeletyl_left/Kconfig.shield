@@ -1,2 +1,0 @@
-config SHIELD_SKELETYL_LEFT
-    bool "Skeletyl Left"
