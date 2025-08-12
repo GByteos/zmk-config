@@ -114,7 +114,7 @@
     };
 };
 
-zero_serial: &uart0 {
+&uart0 {
     current-speed = <115200>;
     pinctrl-0 = <&uart0_default>;
     pinctrl-names = "default";
@@ -154,6 +154,8 @@ zero_serial: &uart0 {
 zephyr_udc0: &usbd {
     status = "okay";
 };
+
+zero_serial: &uart0 {};
 
 // &vreg {
 // 	regulator-always-on;

@@ -22,7 +22,7 @@
                 &bootloader     &kp W     &kp E     &kp R     &kp T     &kp Y                &bootloader     &kp W     &kp E     &kp R     &kp T     &kp Y
 
                 /* Row 1: A S D F G  Thumb2 */
-                &kp A           &kp S     &kp D     &kp F     &kp G     &kp H                &kp A           &kp S     &kp D     &kp F     &kp G     &kp H
+                &kp A           &kp S     &kp D     &kp F     &kp G     &kp H                &kp A           &kp S     &bootloader     &kp F     &kp G     &kp H
 
                 /* Row 2: Z X C V B  Thumb3 */
                 &kp Z           &kp X     &kp C     &kp V     &kp B     &bootloader          &kp Z           &kp X     &kp C     &kp V     &kp B     &bootloader
