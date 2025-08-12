@@ -52,6 +52,6 @@
     
     wired_split {
         compatible = "zmk,wired-split";
-        device = <&uart0>;
+        device = <&zero_serial>;
     };
 };

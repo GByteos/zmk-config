@@ -114,10 +114,11 @@
     };
 };
 
-&uart0 {
+zero_serial: &uart0 {
     current-speed = <115200>;
     pinctrl-0 = <&uart0_default>;
     pinctrl-names = "default";
+    status = "okay";
 };
 
 &spi0 {
