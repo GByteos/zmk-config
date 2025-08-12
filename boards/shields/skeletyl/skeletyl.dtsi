@@ -54,6 +54,5 @@
         compatible = "zmk,wired-split";
         device = <&zero_serial>;
         half-duplex;
-        dir-gpios = <&gpio0 5 GPIO_ACTIVE_HIGH>;
     };
 };
