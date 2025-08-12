@@ -16,6 +16,12 @@
 	};
     };
 
+	uart0_half_duplex: uart0_half_duplex {
+	group1 {
+	    pinmux = <UART0_TX_GP4>;
+	};	
+    };
+
     i2c0_default: i2c0_default {
         group1 {
 	    pinmux = <I2C0_SDA_P4>, <I2C0_SCL_P5>;
